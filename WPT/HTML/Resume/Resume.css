@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(83, 79, 79);
+    padding:20px;
+    margin: 2px;
+   
+}
+.image img{
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+#container{
+    /* text-align: center; */
+    background-color: rgb(152, 177, 199);
+    padding: 10%;
+    border-radius: 5%;
+}
+/* .skills{
+    margin-left: 40%;
+}
+.hobbies{
+    margin-left: 40%;
+} */

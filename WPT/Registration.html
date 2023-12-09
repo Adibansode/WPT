@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            /* margin: 0px;
+            padding: 0px; */
+            background-image: linear-gradient(rgb(53, 192, 169),rgb(180, 33, 33));
+            background-repeat: no-repeat
+
+            
+        }
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            border-radius: 30px;
+            margin-left: 18%;
+            align-items: center;
+            width: 60%;
+            background-color: rgb(250, 249, 249);
+            margin-bottom: 20px;
+        }
+        .form{
+            padding: 4%;
+            text-align:justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            width: 70%;
+            /* margin-left: 20%; */
+        }
+        button{
+            
+            width: 30%;
+            margin: 1%;
+            align-items: center;
+            text-align: center;
+            border:1px solid black ;
+            border-radius: 7px;
+        }
+        .check input{
+            margin: 2%;
+        }
+        button:hover{
+            background-color: rgb(145, 145, 206)  ;
+        }
+        legend{
+            background-color: rgb(125, 174, 219);
+            border-radius: 20px;
+            /* text-align: right; */
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <fieldset >
+        <legend>Registration Details</legend>
+        <div class="form">
+        
+        <b>FirstName:</b><input type="text" placeholder="Enter your firstname"><br>
+        <b>LastName:</b><input type="text" placeholder="Enter your Lastname"><br>
+        <b>Date Of Birth:</b><input type="date" name="" id=""><br>
+        <b>Address:</b><textarea name="" id="" cols="30" rows="5" placeholder="Enter your Address"></textarea><br>
+        <select name="" id="">
+            <option >Select State</option>
+            <option >Maharashtra</option>
+            <option >Gujarat</option>
+            <option >Tamilnadu</option>    
+            <option >UttarPradesh</option>
+        </select><br>
+        <div class="check">
+
+        <b>Education details:</b>
+        <input type="checkbox" checked >SSC
+        <input type="checkbox" >HSC
+        <input type="checkbox" >BE/Btech
+        <input type="checkbox" >PG
+        <input type="checkbox" >PHD
+<br>
+        <b>Gender:</b>
+        <input type="radio" name="x" >Male
+        <input type="radio" name="x">Female
+        <br>
+        <button>Submit</button>
+        <button>Cancel</button>
+
+    </div>
+    
+    </div>
+    </fieldset>
+</body>
+</html>
