@@ -7,6 +7,8 @@ import Sayhi from './Sayhi';
 import Month from './month';
 import Halfstr from './Halfstr';
 import Case from './case';
+import Login from './Login';
+
 
 
 function App() {
@@ -15,11 +17,18 @@ function App() {
       {/* <Hello name={"Adi"}></Hello>
       <Hi></Hi>
   <Sayhi></Sayhi> */}
-       <Color></Color>
+      {/* <Color></Color> */}
       {/* <Month></Month>
       <Halfstr></Halfstr> */}
       {/* <Case></Case> */}
+      <Login></Login>
+
+
+
+
     </div>
+
+
   );
 }
 
